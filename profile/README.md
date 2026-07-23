@@ -19,6 +19,7 @@ I'd put a "selected projects" section here, but lists go stale and the repos are
 
 ## Elsewhere
 
+- [@andrewmrich](https://github.com/andrewmrich) — the day-job account. Clean separation: I own it, my employer owns whatever it commits in their repos, and nobody has to litigate who owns everything else
 - [projectinsomnia.com](https://projectinsomnia.com/) — writing, occasionally about how I broke something interesting
 - [LinkedIn](https://www.linkedin.com/in/andrewrich/) — for the resume version
 - [nightowlstudio.us](https://nightowlstudio.us/) - home of [Kebab](https://kebab.tax) and various client sites
