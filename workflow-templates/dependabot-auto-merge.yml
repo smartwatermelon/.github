@@ -39,4 +39,4 @@ permissions:
 
 jobs:
   dependabot-auto-merge:
-    uses: smartwatermelon/github-workflows/.github/workflows/dependabot-auto-merge.yml@ad3f0ec080ad5b119f2359bf42de6623c4730544 # TODO: repoint to @dependabot-auto-merge-v1 once cut
+    uses: smartwatermelon/github-workflows/.github/workflows/dependabot-auto-merge.yml@dependabot-auto-merge-v1
