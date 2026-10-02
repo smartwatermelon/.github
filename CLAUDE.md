@@ -13,11 +13,10 @@ This is the **`.github` organization-level repository** for the `smartwatermelon
 
 There is no build system, test suite, or application code. This repo contains only GitHub configuration files:
 
-- `workflow-templates/claude-blocking-review.yml` — Calls a reusable workflow from `smartwatermelon/github-workflows@v1` to run Claude Code as a blocking PR reviewer
-- `workflow-templates/claude-blocking-review.properties.json` — Metadata (name, description, icon, categories) that GitHub uses to display the template
+- `workflow-templates/dependabot-auto-merge.yml` — Workflow template that auto-merges eligible Dependabot PRs
+- `workflow-templates/dependabot-auto-merge.properties.json` — Metadata (name, description, icon, categories) that GitHub uses to display the template
 
 ## Key Details
 
-- The Claude Blocking Review workflow requires a `CLAUDE_CODE_OAUTH_TOKEN` secret in any repo that adopts it
 - The actual workflow logic lives in `smartwatermelon/github-workflows`, not here — this repo only holds the template pointer
 - FUNDING.yml is automatically inherited org-wide; no per-repo action needed
