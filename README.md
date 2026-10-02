@@ -11,14 +11,3 @@ Organization-level defaults for smartwatermelon repositories.
 ### FUNDING.yml
 
 Automatically inherited. No action needed for new repos.
-
-### Claude Blocking Review
-
-When creating a new repo:
-
-1. Go to Actions tab
-2. Click "New workflow"
-3. Find "Claude Blocking Review" under organization templates
-4. Click "Configure"
-5. Commit the workflow file
-6. Ensure `CLAUDE_CODE_OAUTH_TOKEN` secret is set
